@@ -49,7 +49,7 @@ export function CartProvider({ children }: { children: ReactNode }) {
                         ? { ...item, quantity: Math.max(1, item.quantity + delta) }
                         : item
                 )
-                .filter((item) => item.quantity > 0) // можно убрать, если не хотим авто-удаление при 0
+                .filter((item) => item.quantity > 0)
         );
     };
 
