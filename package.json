@@ -1,7 +1,6 @@
 {
   "name": "food-delivery-app",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
   "main": "index.ts",
   "scripts": {
     "start": "expo start",
@@ -37,6 +36,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.1.0",
+    "@types/react-native": "^0.72.8",
     "typescript": "~5.9.2"
   },
   "private": true
